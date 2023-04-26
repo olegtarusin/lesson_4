@@ -1,0 +1,71 @@
+h1 {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+body {
+    background-color: #211d1d39;
+}
+
+#yellow p,
+#yellow span {
+    color: rgb(105, 97, 5);
+
+}
+
+.blok p,
+.blok span {
+    color: rgb(12, 121, 41);
+}
+
+.blok.red p,
+.blok.red span {
+    color: red;
+}
+
+p,
+span {
+    color: blue;
+    font-size: 35px;
+    font-style: normal;
+}
+
+#yellow>.first {
+    font-family: 'Larsseit';
+    font-weight: 400;
+}
+
+#yellow p.second {
+    font-family: 'Lato';
+    font-weight: 400;
+
+}
+
+#red>.first {
+    font-family: 'Larsseit';
+    font-weight: 700;
+}
+
+#red p.second {
+    font-family: 'Lato';
+    font-weight: 700;
+}
+
+.green>.first {
+    font-family: 'Larsseit';
+    font-weight: 500;
+}
+
+.green p.second {
+    font-family: 'Lato';
+    font-weight: 900;
+}
